@@ -1,21 +1,177 @@
-Privacy Policy
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Android app (AdMob + In-App Purchase)." />
+  <style>
+    :root { --max: 860px; --pad: 18px; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+    header {
+      border-bottom: 1px solid #e5e5e5;
+      background: #fafafa;
+    }
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px var(--pad);
+    }
+    h1 { margin: 0 0 8px; font-size: 1.8rem; }
+    .meta { color: #444; font-size: 0.95rem; }
+    main h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+      border-top: 1px solid #eee;
+      padding-top: 18px;
+    }
+    ul { margin-top: 8px; }
+    code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
+    a { color: #0b57d0; }
+    footer {
+      border-top: 1px solid #e5e5e5;
+      background: #fafafa;
+      color: #333;
+      font-size: 0.95rem;
+    }
+    .note {
+      background: #f7faff;
+      border: 1px solid #d6e6ff;
+      padding: 12px 14px;
+      border-radius: 10px;
+      margin-top: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        Effective date: <strong>2/18/2026</strong>
+      </div>
+      <div class="note">
+        This page is intended for an Android app that uses <strong>Google AdMob</strong> and offers an optional
+        <strong>in-app purchase</strong> to remove ads.
+      </div>
+    </div>
+  </header>
 
-This app uses third-party services that may collect information used to identify you.
+  <main>
+    <div class="wrap">
+      <p>
+        This app is provided for entertainment purposes and is supported by advertisements and optional in-app purchases.
+      </p>
 
-Third-party service used:
-- Google AdMob
+      <h2>1. Information Collection and Use</h2>
+      <p>
+        The developer does not directly collect, store, or share personal information.
+      </p>
+      <p>
+        However, the app uses third-party services that may collect information used to identify a device
+        or improve advertising performance.
+      </p>
 
-AdMob may collect:
-- Advertising ID
-- Device information
-- App interaction data
-- Diagnostic data
+      <h2>2. Third-Party Services</h2>
+      <p>This app uses the following third-party services:</p>
+      <ul>
+        <li><strong>Google AdMob</strong> (Advertising)</li>
+        <li><strong>Google Play</strong> (In-app purchases)</li>
+      </ul>
 
-This data is used for:
-- Providing and improving ads
-- Analytics and performance monitoring
+      <p><strong>AdMob may collect:</strong></p>
+      <ul>
+        <li>Advertising ID</li>
+        <li>Device information</li>
+        <li>App interaction data</li>
+        <li>Diagnostic data</li>
+      </ul>
 
-The developer does not directly collect or store personal information.
+      <p><strong>This data is used for:</strong></p>
+      <ul>
+        <li>Providing and improving advertisements</li>
+        <li>Analytics and performance monitoring</li>
+        <li>Fraud prevention</li>
+      </ul>
 
-If you have any questions, contact:
-klee25074@gmail.com
+      <p>
+        For more information, please review Google's Privacy Policy:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          https://policies.google.com/privacy
+        </a>
+      </p>
+
+      <h2>3. In-App Purchases</h2>
+      <p>
+        The app offers an optional in-app purchase to remove advertisements.
+      </p>
+      <p>
+        All purchases are processed securely through Google Play. The developer does not receive or store payment
+        information (such as credit card details).
+      </p>
+
+      <h2>4. Advertising ID</h2>
+      <p>
+        Users can reset or disable their Advertising ID through their Android device settings.
+      </p>
+      <p>
+        If you opt out of personalized ads, you may still see non-personalized ads.
+      </p>
+
+      <h2>5. Data Retention</h2>
+      <p>
+        Data collected by third-party services is retained according to their respective privacy policies.
+      </p>
+      <p>
+        The developer does not store personal data on external servers.
+      </p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>
+        This app is not directed to children under the age of 13.
+      </p>
+      <p>
+        The developer does not knowingly collect personal information from children under 13. If you believe a child has
+        provided personal information, please contact us.
+      </p>
+
+      <h2>7. Security</h2>
+      <p>
+        The app relies on trusted third-party services that implement industry-standard security measures.
+      </p>
+
+      <h2>8. Changes to This Policy</h2>
+      <p>
+        This Privacy Policy may be updated from time to time. Any changes will be posted on this page.
+      </p>
+
+      <h2>9. Contact</h2>
+      <p>
+        If you have any questions, contact:
+        <a href="mailto:klee25074@gmail.com">klee25074@gmail.com</a>
+      </p>
+
+      <hr style="margin: 28px 0; border: none; border-top: 1px solid #eee;" />
+      <p class="meta">
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>© <span id="year"></span> All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Optional: auto-fill current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
